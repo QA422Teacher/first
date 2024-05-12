@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Базовая структура HTML-документа  (CSS)</title>
+</head>
+<style>
+/*    Групповой селектор*/
+    h1,h2,h3 {
+        color: aqua;
+        
+        font-style: italic;
+        font-family: fantasy;
+        width: 400px;
+    }
+/*    Селектор элемента*/
+    p {
+        font-size: 16px;
+        font-style: oblique;
+        color:brown;
+        background-color:blue;
+    }
+/*    Селектор id*/
+    #h1-selector{
+        background-color: black;
+    }
+    #h2-selector{
+        background-color:darkorange;
+    }
+     #h3-selector{
+        background-color:darkorange;
+    }
+/*    Селектор класса*/
+    .cursive {
+        font-size: 20px;
+        font-style: italic;
+        font-family: Calibri, cursive;
+        background-color: bisque;
+    }
+</style>
+<body>
+    <h1 id="h1-selector">Заголовок 1-го уровня</h1>
+    <blockquote class="cursive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque nulla aperiam eaque doloribus unde, similique dolorum consectetur modi fugiat totam voluptatibus omnis, deserunt ipsum! Illum itaque nemo accusantium, facilis cumque!</blockquote>
+    <p>Architecto esse ut incidunt exercitationem deleniti, porro culpa quis maiores dignissimos eos sint ipsam, perferendis at! Qui commodi ipsum pariatur corporis perferendis, odio harum. Voluptas, dolorum molestias commodi repellendus dolorem.</p>
+   <hr> <!-- Горизонтальная строка-->
+    <h2 id="h2-selector">Заголовок 2-го уровня</h2>
+    <div>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque nulla aperiam eaque doloribus unde, similique dolorum consectetur modi fugiat totam voluptatibus omnis, deserunt ipsum! Illum itaque nemo accusantium, facilis cumque!</span>
+        <p style="color: #c41b7d; font-style: italic; font-family: 'Open Sans', roboto">Inventore aperiam temporibus dolorem iste ab maxime cum, odio ratione necessitatibus, optio, ut voluptas quo laudantium doloribus dicta quia repellat. Pariatur quasi, fuga consectetur obcaecati cupiditate! Aliquam alias officia natus.</p>
+        <br> <!--Перенос текста на следующу строку-->
+        <img src="/Img/sova.jpg" alt="">
+         <h3 id="h3-selector" style="width: 400px;">Заголовок 3-го уровня</h3>
+        <blockquote>Harum aspernatur, quis odio laudantium a facilis pariatur! Dicta ea expedita inventore velit modi voluptas eaque quia. Ipsum rem repudiandae voluptates possimus eum modi voluptas tempora. Aliquid inventore odit illum.</blockquote>
+        <p>Architecto esse ut incidunt exercitationem deleniti, porro culpa quis maiores dignissimos eos sint ipsam, perferendis at! Qui commodi ipsum pariatur corporis perferendis, odio harum. Voluptas, dolorum molestias commodi repellendus dolorem.</p>
+    </div>
+</body>
+</html>

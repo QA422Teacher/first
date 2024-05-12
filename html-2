@@ -11,7 +11,7 @@
         
         font-style: italic;
         font-family: fantasy;
-        width: 300px;
+        width: 1500px;
     }
 /*    Селектор элемента*/
     p {

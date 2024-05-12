@@ -39,7 +39,7 @@
     }
 </style>
 <body>
-    <h1 id="h1-selector">Заголовок 1-го уровня</h1>
+    <h1 id="h1-selector">пробуем , пробуем</h1>
     <blockquote class="cursive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque nulla aperiam eaque doloribus unde, similique dolorum consectetur modi fugiat totam voluptatibus omnis, deserunt ipsum! Illum itaque nemo accusantium, facilis cumque!</blockquote>
     <p>Architecto esse ut incidunt exercitationem deleniti, porro culpa quis maiores dignissimos eos sint ipsam, perferendis at! Qui commodi ipsum pariatur corporis perferendis, odio harum. Voluptas, dolorum molestias commodi repellendus dolorem.</p>
    <hr> <!-- Горизонтальная строка-->

@@ -4,6 +4,8 @@
                 if (res % 1 == 0) {
                     long ires = Math.round(res);
                     if (ires==777){
+
+
                         String mes = "Пасхалка)))";
                         String stres = tv.getText().toString()+"\n= "+ires+"\n"+mes;
                         //stres = stres+type;

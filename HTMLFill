@@ -8,6 +8,8 @@
                         String stres = tv.getText().toString()+"\n= "+ires+"\n"+mes;
                         //stres = stres+type;
                         tv.setText(stres);
+
+
                         is_res = true;
                         type = "";
                         new Thread(() -> to_error(mes)).start();

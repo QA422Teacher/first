@@ -1,0 +1,56 @@
+             default:
+                        break;
+                }
+                if (res % 1 == 0) {
+                    long ires = Math.round(res);
+                    if (ires==777){
+                        String mes = "Пасхалка)))";
+                        String stres = tv.getText().toString()+"\n= "+ires+"\n"+mes;
+                        //stres = stres+type;
+                        tv.setText(stres);
+                        is_res = true;
+                        type = "";
+                        new Thread(() -> to_error(mes)).start();
+                    }
+                    else {
+                        String stres = tv.getText().toString()+"\n= "+ires;
+                        //stres = stres+type;
+                        tv.setText(stres);
+                        is_res = true;
+                        type = "";
+                    }
+                }
+                else {
+                    String stres = tv.getText().toString()+"\n= "+res;
+                    //stres = stres+type;
+                    tv.setText(stres);
+                    is_res = true;
+                    type = "";
+                }
+            }
+        });
+        btnminus.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                v.startAnimation(animAlpha);
+                String st;
+                if (!tv.getText().toString().equals(""))
+                {
+                    first=Double.valueOf(tv.getText().toString());
+                    st = tv.getText().toString()+"\n"+btnminus.getText().toString()+"\n";
+                    tv.setText(st);
+                    type = btnminus.getText().toString();
+                }
+            }
+        });
+    }
+    protected void to_error(String mess){
+        try {
+            String mes = "Пасхалка)))";
+            Thread.sleep(5000);
+            throw new Exception(mes);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+}
